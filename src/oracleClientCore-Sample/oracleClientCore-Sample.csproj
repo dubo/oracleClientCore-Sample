@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <StartupObject>SimpleTest.Program</StartupObject>
+    <Authors>Miroslav Dubovský</Authors>
+    <Company>Miroslav Dubovský</Company>
+    <Description>
+Small app for testing .Net Core Oracle client</Description>
+    <PackageProjectUrl>https://github.com/dubo/oracleClientCore-Sample</PackageProjectUrl>
+    <PackageLicenseUrl>https://tldrlegal.com/license/mit-license#summary</PackageLicenseUrl>
+    <PackageTags>Oracle .Net Core</PackageTags>
+    <PackageReleaseNotes>Sample , how connect to Oracle DB from .Net Core 2.0 with Eric Mendonca dotNetCore.Data.OracleClient.
+Tested in Windows and Linux, MacOs may works too</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="dotNetCore.Data.OracleClient" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
