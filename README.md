@@ -1,6 +1,6 @@
 # oracleClientCore-Sample
 Small app for test .Net Core Oracle client.
-Used [oracleClientCore-2.0](https://github.com/ericmend/oracleClientCore-2.0) library
+Based on [ericmend](https://github.com/ericmend)  [oracleClientCore-2.0](https://github.com/ericmend/oracleClientCore-2.0) library
 ([Nuget](https://www.nuget.org/packages/dotNetCore.Data.OracleClient))
 
 
