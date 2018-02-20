@@ -10,13 +10,25 @@
 Small app for testing .Net Core Oracle client</Description>
     <PackageProjectUrl>https://github.com/dubo/oracleClientCore-Sample</PackageProjectUrl>
     <PackageLicenseUrl>https://tldrlegal.com/license/mit-license#summary</PackageLicenseUrl>
-    <PackageTags>Oracle .Net Core</PackageTags>
+    <PackageTags>Oracle, .NetCore</PackageTags>
     <PackageReleaseNotes>Sample , how connect to Oracle DB from .Net Core 2.0 with Eric Mendonca dotNetCore.Data.OracleClient.
 Tested in Windows and Linux, MacOs may works too</PackageReleaseNotes>
+    <ApplicationIcon />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="dotNetCore.Data.OracleClient" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Oracle.ManagedDataAccess">
+      <HintPath>..\..\lib\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
