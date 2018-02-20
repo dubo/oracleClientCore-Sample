@@ -12,9 +12,12 @@ Based on [ericmend](https://github.com/ericmend)  [oracleClientCore-2.0](https:/
   OCI_HOME="/opt/oracle/instantclient"; OCI_LIB_DIR="/opt/oracle/instantclient"; PATH=$PATH:"/opt/oracle/instantclient"
 * (windows) Unzip the files and declare the environment variables. eg: LD_LIBRARY_PATH="C:\instantclient_12_2\"; 
   OCI_HOME="C:\instantclient_12_2\"; OCI_LIB_DIR="C:\instantclient_12_2\"; PATH=%PATH%;"C:\instantclient_12_2\"
-*  Set NLS_LANG settings, if it is not setteted correctly eg: in windows: SET NLS_LANG=SLOVAK_SLOVAKIA.EE8MSWIN1250 ( or set registry key), in Linux you can use: export NLS_LANG=SLOVAK_SLOVAKIA.UTF8 .      //Slovak
-NLS_LANG= BRAZILIAN PORTUGUESE_BRAZIL.WE8ISO8859P1 //Portugeese alt 1
-NLS_LANG= PORTUGUESE_PORTUGAL.WE8MSWIN1252  //Portugeese alt 2 and others
+*  Set NLS_LANG settings, if it is not setteted correctly eg: in windows: 
+   SET NLS_LANG=SLOVAK_SLOVAKIA.EE8MSWIN1250 ( or set registry key), 
+   in Linux you can use: export NLS_LANG=SLOVAK_SLOVAKIA.UTF8 .   // Slovak NLS lang settings   
+*  NLS_LANG= BRAZILIAN PORTUGUESE_BRAZIL.WE8ISO8859P1 //Portugeese  NLS lang settings    alt 1
+*  NLS_LANG= PORTUGUESE_PORTUGAL.WE8MSWIN1252  //Portugeese  NLS lang settings alt 2  ...
+
 More resources about possible values: [NLS_LANG FAQ](http://www.oracle.com/technetwork/database/database-technologies/globalization/nls-lang-099431.html#_Toc110410555)
 
 
