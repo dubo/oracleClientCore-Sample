@@ -31,4 +31,4 @@ Work has been done to work on Windows / Linux / MacOsX. Tested so far only Windo
 http://www.oracle.com/technetwork/topics/dotnet/downloads/net-downloads-160392.html 
 * Copy it to lib directory - sample:  c:\work\oracleClientCore-Sample\lib\..  and add as reference
 * Configure your conn string - possible samples in code - with or withouth tnsnames.ora
-* Configure NLS_LANG for language settins - see above 
+* Configure NLS_LANG for language settings - see above 
